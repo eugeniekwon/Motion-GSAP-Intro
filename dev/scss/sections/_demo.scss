@@ -1,5 +1,42 @@
 
-#content{
+#demo-simple{
+
+    display: grid;
+    grid-template-columns: auto 60% auto;
+    grid-template-areas: ". demo .";
+
+    >div{
+        grid-area: demo;
+        height: 100vh;
+
+        ul{
+            display: flex;
+            height: 100%;
+            align-items: center;
+        }
+
+    }
+
+    .circle{
+        height: 100px;
+        width: 100px;
+        border-radius: 53px;
+        margin-right: 50px;   
+    }
+
+    #red-circle{
+        background-color: $red;
+    }
+ 
+    #yellow-circle{
+        background-color: $yellow;
+    }
+
+    #purple-circle{
+        background-color: $purple;
+    }
 
 }
+
+
 

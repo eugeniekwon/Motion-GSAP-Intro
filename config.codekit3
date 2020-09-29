@@ -70,13 +70,46 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/animationSpeed.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/animationSpeed-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/demo.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/js/demo-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/purpleCircle.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/purpleCircle-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/redCircle.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/redCircle-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -89,6 +122,17 @@
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/yellowCircle.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/yellowCircle-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},

@@ -361,3 +361,25 @@ textarea {
 /* =============
     Footer
 ============= */
+#demo-simple {
+  display: grid;
+  grid-template-columns: auto 60% auto;
+  grid-template-areas: ". demo ."; }
+  #demo-simple > div {
+    grid-area: demo;
+    height: 100vh; }
+    #demo-simple > div ul {
+      display: flex;
+      height: 100%;
+      align-items: center; }
+  #demo-simple .circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 53px;
+    margin-right: 50px; }
+  #demo-simple #red-circle {
+    background-color: #DE5D5D; }
+  #demo-simple #yellow-circle {
+    background-color: #E5BD55; }
+  #demo-simple #purple-circle {
+    background-color: #8B7E9C; }
