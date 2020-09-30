@@ -6,7 +6,7 @@ export function yellowCircleTimeline(){
     
     var timeline = gsap.timeline();
 
-    timeline.to("#yellow-circle", {duration:circleSpeed, y:300})
+    timeline.from("#yellow-circle", {duration:circleSpeed, y:500, alpha:0})
             .to("#yellow-circle", {duration:circleSpeed, x:300});
     return timeline;
     

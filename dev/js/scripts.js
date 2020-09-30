@@ -16,4 +16,5 @@ mainTL.add(redCircleTimeline())
     //   .addLabel("purple")
       .add(purpleCircleTimeline())
     //   .seek("purple")
+      // .addPause()
       .play();
