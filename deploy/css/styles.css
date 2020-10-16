@@ -361,12 +361,13 @@ textarea {
 /* =============
     Footer
 ============= */
-#content > div {
+#content {
+  background-color: #000;
   display: grid;
   grid-template-areas: ". svg .";
-  grid-template-columns: auto 45% auto;
-  background-color: #000; }
-  #content > div svg {
+  grid-template-columns: auto 50% auto;
+  height: 100vh; }
+  #content > div {
     grid-area: svg;
     display: flex;
     align-items: center;
