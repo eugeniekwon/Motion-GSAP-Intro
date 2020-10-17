@@ -1,11 +1,19 @@
 import {gsap} from "gsap";
+import { MotionPathPlugin } from "gsap/MotionPathPlugin";  
+
+gsap.registerPlugin(MotionPathPlugin);
+
+
+
 
 //mosquito (night)
 const mosquitoTL = gsap.timeline();
-mosquitoTL
-        .from("#mosquito", {duration:3, scale: 0.2, ease:"none"})
-         .from("#mosquito", {duration:3, x:-10, y:10, rotation:360, ease:"none"})
-         .to("#mosquito", {duration:3, x:100, y:200}, "-=3")
+gsap.set("#mosquito", {xPercent:-50, yPercent:-50, transformOrigin: "50% 50%"})
+
+mosquitoTL.to("#mosquito", {duration:5, motionPath:"#mosquito-path", autoRotate:true})
+        .from("#mosquito", {duration:5, scale: 0.3, ease:"none"})
+        //  .from("#mosquito", {duration:3, x:-10, y:10, rotation:360, ease:"none"})
+        //  .to("#mosquito", {duration:3, x:100, y:200}, "-=3")
 
 export function mosquitoAnimation(){
     return mosquitoTL;
