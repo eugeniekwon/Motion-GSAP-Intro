@@ -368,4 +368,5 @@ textarea {
   grid-template-columns: auto 50% auto;
   height: 100vh; }
   #content > div {
-    grid-area: svg; }
+    grid-area: svg;
+    padding-top: 250px; }
