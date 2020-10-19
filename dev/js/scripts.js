@@ -9,5 +9,4 @@ const mainTL = gsap.timeline();
 
 mainTL.add(mosquitoAnimation())
         .add(toggleOnAnimation())
-        // .addPause()
         .add(toggleOffAnimation())
